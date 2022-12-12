@@ -16,8 +16,10 @@ public class Main {
 
 
         public static void main(String[] args) {
-            B b= new B();
-            b.meth();  // will print "Method is overridden in Extended class B"
+         A obj1=new A();
+         System.out.println(obj1.meth());
+            B obj=new B();
+            System.out.println(obj.meth());
         }
     }
 
