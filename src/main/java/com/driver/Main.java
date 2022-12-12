@@ -17,10 +17,12 @@ public class Main {
 
 
         public static void main(String[] args) {
-         A obj1=new A();
-         System.out.println(obj1.meth());
             B obj=new B();
             System.out.println(obj.meth());
+            A obj1=new A();
+            System.out.println(obj1.meth());
+
+
         }
     }
 
